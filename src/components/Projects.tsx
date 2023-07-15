@@ -1,11 +1,25 @@
+import { motion } from "framer-motion";
 function Projects() {
   return (
     <div className="mt-20">
       <h2 className="title-p text-center text-4xl title  justify-center flex">
         PROJECTS
       </h2>
-      <div className="mt-20 mb-5 mx-w-4xl md:flex my-20">
-        <img
+      <div className="mt-20 mb-5 mx-w-2xl md:flex my-20 ">
+        <motion.img
+          initial={{
+            x: 200,
+            opacity: -1,
+            scale: 0.5,
+          }}
+          transition={{
+            duration: 2,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
           className="rounded-lg mx-auto mb-3 md:mb-0 md:w-1/2 h-full"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_R4ZDCTfZT2ZjkVn4el_xdwFtljkiwoT5KA&usqp=CAU"
           alt=""
@@ -28,7 +42,20 @@ function Projects() {
         </div>
       </div>
       <div className="mt-20 mb-5 mx-w-4xl md:flex my-20">
-        <img
+        <motion.img
+          initial={{
+            x: -200,
+            opacity: -1,
+            scale: 0.5,
+          }}
+          transition={{
+            duration: 2,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
           className="rounded-lg mx-auto mb-3 md:mb-0 md:w-1/2 h-full"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_R4ZDCTfZT2ZjkVn4el_xdwFtljkiwoT5KA&usqp=CAU"
           alt=""
@@ -51,7 +78,20 @@ function Projects() {
         </div>
       </div>
       <div className="mt-20 mb-5 mx-w-4xl md:flex my-20">
-        <img
+        <motion.img
+          initial={{
+            x: 200,
+            opacity: -1,
+            scale: 0.5,
+          }}
+          transition={{
+            duration: 2,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
           className="rounded-lg mx-auto mb-3 md:mb-0 md:w-1/2 h-full"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_R4ZDCTfZT2ZjkVn4el_xdwFtljkiwoT5KA&usqp=CAU"
           alt=""
@@ -74,7 +114,20 @@ function Projects() {
         </div>
       </div>
       <div className="mt-20 mb-5 mx-w-4xl md:flex my-20">
-        <img
+        <motion.img
+          initial={{
+            x: -200,
+            opacity: -1,
+            scale: 0.5,
+          }}
+          transition={{
+            duration: 2,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
           className="rounded-lg mx-auto mb-3 md:mb-0 md:w-1/2 h-full"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_R4ZDCTfZT2ZjkVn4el_xdwFtljkiwoT5KA&usqp=CAU"
           alt=""

@@ -24,8 +24,8 @@ button:active{
 
 
 .hero-container{
-  padding-top: 20vh;
-  width: 50%;
+  padding-top: 50vh;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -72,19 +72,18 @@ button:active{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     padding: 10px;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    position:relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position:relative; */
  
   }
   
-  .navbar-container {
-   
-    display: flex;
-    align-items: center;
-    max-width: 800px;
-    width: 100%;
-  }
+  /* .navbar-container {
+    /* display: flex; */
+    /* align-items: center; */
+    /* max-width: 800px;
+    width: 100%; 
+  } */
   
   .navbar-logo {
     color: #080808;

@@ -1,6 +1,6 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { SocialIcon } from "react-social-icons";
-
+import { motion } from "framer-motion";
 function Hero() {
   const [text] = useTypewriter({
     words: [
@@ -11,7 +11,7 @@ function Hero() {
     ],
   });
   return (
-    <div className=" relative min-h-screen">
+    <div className=" relative mt-20 min-h-screen">
       <div className="hero-container">
         <div className="flex-1 padding-x">
           <div className="cube"></div>
@@ -48,6 +48,26 @@ function Hero() {
             />
           </div>
         </div>
+        <motion.img
+          initial={{
+            x: 300,
+            opacity: -2,
+            scale: 0.5,
+          }}
+          transition={{
+            duration: 2,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 2,
+            scale: 1,
+          }}
+          src="https://github.com/Manguriu/portfolio/blob/main/public/hello.png?raw=true"
+          alt=""
+          height={100}
+          width={100}
+          className="mt-10 mb-10 md:mb-0 flex-shrink-0 rounded-full md:rounded-lg object-cover xl:w-[200px] xl:h-[250px]"
+        />
       </div>
     </div>
   );
