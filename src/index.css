@@ -47,13 +47,18 @@ button:active{
                -1px -1px 1px #4F200D; */
   }
 
+
+
+
   @media screen and (max-width: 50px) {
      .morph-hero{
       width: 100%;
     }
   }
 
-
+.about{
+  margin-bottom: 20vh;
+}
 
   .about-morph{
   color: #080808;
@@ -120,7 +125,7 @@ button:active{
 
 
 
-.blob {
+/* .blob {
   position: absolute;
   width: 500px;
   height: 500px;
@@ -172,12 +177,12 @@ button:active{
     transform: translate(500px, 100px) rotate(-10deg);
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
-}
+} */
 
 
 /* Skills */
 .container {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -440,3 +445,64 @@ button:active{
   color: #080808;
   
 }
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border: transparent;
+  perspective: 1000px;
+  margin-right: 10px;
+  background-color: #ECF9FF;
+ 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+ background-color:#ECF9FF ;
+  color:black;
+}
+
+.flip-card-back {
+  background-color:#ECF9FF;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.cont-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+

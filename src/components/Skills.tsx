@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 function Skills() {
   return (
     <>
-      <h2 className="title-p text-center text-4xl title  justify-center flex">
-        Skills
-      </h2>
-      <div className="flex mb-3">
-        <div className="container">
+      <div className=" mt-20">
+        <h2 className="title-p text-center text-4xl title  justify-center flex">
+          Skills
+        </h2>
+        <div className="flex container">
           <div className="card">
             <motion.img
               initial={{
@@ -90,8 +90,8 @@ function Skills() {
               that let's you play harder and work smarter.
             </p>
           </div>
+          {/* <div className="blob mt-20 p-10 "></div> */}
         </div>
-        <div className="blob mt-20 p-10 "></div>
       </div>
     </>
   );

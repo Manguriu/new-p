@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import { Helmet } from "react-helmet";
-// import Contacts from "./components/Contacts";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -24,9 +24,9 @@ function App() {
       <section id="projects" className="snap-start">
         <Projects />
       </section>
-      {/* <section id="contacts" className="snap-end">
+      <section id="contacts" className="snap-end">
         <Contacts />
-      </section> */}
+      </section>
       <Footer />
       <Helmet>
         <script>

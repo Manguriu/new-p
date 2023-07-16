@@ -29,7 +29,7 @@ const Footer = () => {
           initial={{
             x: 200,
             opacity: 0,
-           scale: 0.5, 
+            scale: 0.5,
           }}
           animate={{
             x: 0,
