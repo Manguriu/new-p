@@ -24,8 +24,10 @@ function Skills() {
             />
             <h2 className="title flex itmes-center justify-center">Laravel</h2>
             <p className="subtitle">
-              Introducing the first ever 5G enabled tablet. You've got a tablet
-              that let's you play harder and work smarter.
+              Laravel is a PHP web framework with features like ORM, routing,
+              middleware, templating engine, CLI, authentication, caching,
+              queues, and testing support, facilitating efficient and elegant
+              web development.
             </p>
           </div>
 
@@ -44,8 +46,10 @@ function Skills() {
             />
             <h2 className="title flex itmes-center justify-center">React.js</h2>
             <p className="subtitle">
-              Introducing the first ever 5G enabled tablet. You've got a tablet
-              that let's you play harder and work smarter.
+              React is a JavaScript library for building user interfaces. It
+              enables developers to create reusable UI components, manage state
+              efficiently, and efficiently update the UI through its virtual
+              DOM.
             </p>
           </div>
 
@@ -64,8 +68,10 @@ function Skills() {
             />
             <h2 className="title flex itmes-center justify-center ">Next.js</h2>
             <p className="subtitle">
-              Introducing the first ever 5G enabled tablet. You've got a tablet
-              that let's you play harder and work smarter.
+              Next.js is a React framework for server-side rendering and static
+              site generation. It simplifies building fast and scalable web
+              applications, providing features like routing, code splitting, and
+              server-side rendering out of the box.
             </p>
           </div>
 
@@ -86,11 +92,12 @@ function Skills() {
               Javascript
             </h2>
             <p className="subtitle">
-              Introducing the first ever 5G enabled tablet. You've got a tablet
-              that let's you play harder and work smarter.
+              JavaScript is a versatile programming language used for creating
+              interactive and dynamic web content. It runs on the client-side
+              and enables developers to add functionality, manipulate HTML
+              elements, and communicate with servers.
             </p>
           </div>
-          {/* <div className="blob mt-20 p-10 "></div> */}
         </div>
       </div>
     </>

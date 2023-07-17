@@ -25,16 +25,18 @@ function Projects() {
           alt=""
         />
         <div className="summary ml-8">
-          <h6 className=" title text-2xl mb-3 ">Something</h6>
+          <h6 className=" title text-2xl mb-3 ">React Emmorce App</h6>
           <p className="subtitle-p">
-            Introducing the first ever 5G enabled tablet. You've got a tablet
-            that let's you play harder and work smarter.Introducing the first
-            ever 5G enabled tablet. You've got a tablet that let's you play
-            harder and work smarter.
+            Front-end e-commerce development encompasses responsive design,
+            product catalog display, shopping cart functionality, checkout
+            process facilitation, user authentication and account management,
+            payment gateway integration, dynamic user interactions.
           </p>
           <div className="btn-morph mt-6">
             <p className="text-lg mt-5 pt">
-              <a className="border-l-2 border-bg[#A8A196]" href="">
+              <a
+                className="border-l-2 border-bg[#A8A196]"
+                href="https://github.com/Manguriu/ecom-react-app">
                 Go to ..
               </a>
             </p>
@@ -61,16 +63,17 @@ function Projects() {
           alt=""
         />
         <div className="summary ml-8">
-          <h6 className="title text-2xl mb-3 ">Something</h6>
-          <p className="subtitle-p">
-            Introducing the first ever 5G enabled tablet. You've got a tablet
-            that let's you play harder and work smarter.Introducing the first
-            ever 5G enabled tablet. You've got a tablet that let's you play
-            harder and work smarter.
+          <h6 className="title text-2xl mb-3 ">Ecom Backend Laravel</h6>
+          <p className="subtitle-p ">
+            The "Ecom-backend" project is a backend implementation for an
+            e-commerce application. It focuses on server-side functionalities,
+            including user management for authentication and authorization,
           </p>
           <div className="btn-morph mt-6">
             <p className="text-lg mt-5 pt">
-              <a className="border-l-2 border-bg[#A8A196]" href="">
+              <a
+                className="border-l-2 border-bg[#A8A196]"
+                href="https://github.com/Manguriu/Ecom-backend">
                 Go to ..
               </a>
             </p>

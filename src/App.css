@@ -1,35 +1,22 @@
-
-
-
-
 :root {
   max-width: 1400px;
   margin: 0 auto;
-  background: #ECF9FF;
-	font-family: "Nunito", sans-serif;
+  background: #ecf9ff;
+  font-family: "Nunito", sans-serif;
   padding: 1rem;
   text-align: center;
 }
 
-
-
-body{
+body {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  background: #ECF9FF;
-  color:#01030c;
-  }
+  background: #ecf9ff;
+  color: #01030c;
+}
 
-*{
+* {
   margin: 0;
   padding: 0;
   color: #080808;
 }
-
-
-
-
-
-
-
