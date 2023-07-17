@@ -4,6 +4,12 @@ function About() {
   return (
     <>
       <div className=" flex flex-col relative min-h-screen text-center md:text-left md:flex-row max-w-5xl px-5 justify-evenly mx-auto items-center">
+        <div className="cube"></div>
+        <div className="cube"></div>
+        <div className="cube"></div>
+        <div className="cube"></div>
+        <div className="cube"></div>
+        <div className="cube"></div>
         <motion.img
           initial={{
             x: -200,

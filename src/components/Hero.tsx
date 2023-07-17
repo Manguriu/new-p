@@ -14,12 +14,6 @@ function Hero() {
     <div className=" relative mt-20 min-h-screen">
       <div className="hero-container">
         <div className="flex-1 padding-x">
-          <div className="cube"></div>
-          <div className="cube"></div>
-          <div className="cube"></div>
-          <div className="cube"></div>
-          <div className="cube"></div>
-          <div className="cube"></div>
           <p className="text-2xl"> Hello there,</p>
           <h1 className="text-2xl sm:text-4xl 2xl:text-5xl ">
             <br />

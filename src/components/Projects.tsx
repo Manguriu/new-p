@@ -5,6 +5,8 @@ function Projects() {
       <h2 className="title-p text-center text-4xl title  justify-center flex">
         PROJECTS
       </h2>
+      {/* line accross the project */}
+      <div className="w-full absolute top-[30%] bg-[#1D5D9B]/20 left-0 h-[500px] -skew-y-12" />
       <div className="mt-20 mb-5 mx-w-2xl md:flex my-20 ">
         <motion.img
           initial={{
