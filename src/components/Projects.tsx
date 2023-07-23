@@ -137,7 +137,7 @@ function Projects() {
             scale: 1,
           }}
           className="rounded-lg mx-auto mb-3 md:mb-0 md:w-1/2 h-full"
-          src="/src/assets/test.png"
+          src="https://lh3.googleusercontent.com/pw/AIL4fc_byEfh1NPj2_WrJuKUquWvFnwZf4X7GWuDjmOkuFRX7LLhEClhbYygezxRpVqIjv6LaB_TgPViCp14Jp4MarDl2neg2abiuDtbwkaiRrLHNRq1ZPiSM--HgZDfaZ7msEHMbMkQWGRHLHrABI0qIwBcLpcOA9MfVq-SJ9stzc8r4ALob5wGFv7vd98cKOlhxw7L7D8Yrm9fn1kKqhYnb2rEYFhD2yCki2iH9HnWWEG4ogDxwnpoM7grmDQyVACTgRkfzhdzBQn1QLzmO9R0nd1eUdFoZDoFJjB2DmGs-p-nJto-grOVa94gUaNghXn_6iIKA0ImZRV8qPl_m_KYG2ApozjjZ66R4X5VSSKHCk2XHRrz9X3860lZUbLw9RW_H5kiBDtcVOBVzqVFKL5ech7SXHmLspr5PeWzhjda2ZAqET-60ECtb3gnHbqzG8eFrWYRQK7PN8DH5ju-HULvdzAET7K4RHF3MU_xoYN6RQSoU26Ylo4P8oDhwd7S0Wzp7hjwosXkFaSZ33ELuiTtJwHSrswa1KDdC_pWwaAnC-IDsIANb6afPbLMwfw5yrKJiHAKZpWyuTTFfsFjc3-1NvKD-9b1IiY2ugbFI5Kwp8XSRbXKnp5Tx0gFOzVRk8YFiNviGlC19SW6ejJ3wnYItph4FMaocVGd_-g3pYqhmsck-no7tpCxsZCdCENoPEkitrSq3OGXAQS6S3iwAS11v09RofvIG7_OWsFtSTh4Tl68_2CfqQa3uNFE2lFhNM-P_oFFL2TRh9-83hGESE7bIV1sr_0pkJrvqj0StB_Vhf2we0UY_VeE5rzx8Q7Xrk77fFRr7FBtd-tbEGFOlHn0SYKvlsK4zHB33SqBSRY1z4O4wUKpJPPjM6_F78fXDR7V_B36fd46eMglooQ416H69LL13ItGsKpSJrIlnyLRvXvbqJ7hZGwU0WWMxtPOrE0=w1769-h995-s-no?authuser=1"
           alt=""
         />
         <div className="summary ml-8">
